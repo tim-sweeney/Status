@@ -13,6 +13,8 @@
 		2CEA9A1E1B267B360042104D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA9A1D1B267B360042104D /* Images.xcassets */; };
 		2CEA9A211B267B360042104D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA9A1F1B267B360042104D /* LaunchScreen.xib */; };
 		2CEA9A2D1B267B360042104D /* StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA9A2C1B267B360042104D /* StatusTests.swift */; };
+		2CEA9A371B267F290042104D /* Userswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA9A361B267F290042104D /* Userswift.swift */; };
+		2CEA9A391B2680120042104D /* update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA9A381B2680120042104D /* update.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2CEA9A261B267B360042104D /* StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CEA9A2B1B267B360042104D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CEA9A2C1B267B360042104D /* StatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTests.swift; sourceTree = "<group>"; };
+		2CEA9A361B267F290042104D /* Userswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Userswift.swift; sourceTree = "<group>"; };
+		2CEA9A381B2680120042104D /* update.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = update.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		2CEA9A081B267B350042104D = {
 			isa = PBXGroup;
 			children = (
+				2CEA9A361B267F290042104D /* Userswift.swift */,
+				2CEA9A381B2680120042104D /* update.swift */,
 				2CEA9A131B267B360042104D /* Status */,
 				2CEA9A291B267B360042104D /* StatusTests */,
 				2CEA9A121B267B360042104D /* Products */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEA9A371B267F290042104D /* Userswift.swift in Sources */,
 				2CEA9A191B267B360042104D /* ViewController.swift in Sources */,
+				2CEA9A391B2680120042104D /* update.swift in Sources */,
 				2CEA9A171B267B360042104D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
