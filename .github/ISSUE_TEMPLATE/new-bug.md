@@ -2,7 +2,7 @@
 name: New Bug
 about: New Bug Template
 title: ''
-types: bug
+labels: bug
 assignees: tim-sweeney
 
 ---
