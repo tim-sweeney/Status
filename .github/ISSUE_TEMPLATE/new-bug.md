@@ -3,7 +3,7 @@ name: New Bug
 about: New Bug Template
 title: ''
 labels: bug
-assignees: ''
+assignees: tim-sweeney
 
 ---
 
